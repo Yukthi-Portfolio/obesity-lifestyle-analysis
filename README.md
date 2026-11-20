@@ -6,7 +6,7 @@ An exploratory data analysis in Python of how eating habits, physical activity a
 
 ## Key findings
 - **Most of the sample is overweight or obese.** Mean BMI for ages 20–30 is **31.5 kg/m²**, and the distribution is right-skewed.
-- **More activity goes with lower BMI.** Pearson **r = −0.206** (p < 0.0001); median activity frequency falls steadily from normal weight to Obesity Type III.
+- **More activity goes with lower BMI.** Pearson **r = −0.206** (p < 0.0001); Obesity Type III has by far the lowest activity, with a median close to zero.
 - **Activity alone doesn't explain much.** Linear regression gives a slope of **−1.93 BMI per unit of activity**, but **R² = 0.043**, so diet, genetics and other factors matter more.
 - **Screen time doesn't predict BMI** in this sample (p = 0.228).
 - Water intake shows a small positive correlation with BMI (r = 0.128), likely because heavier people drink more in absolute terms.
